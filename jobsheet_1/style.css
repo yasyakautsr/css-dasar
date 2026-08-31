@@ -1,0 +1,13 @@
+#nama {
+    color: rgb(73, 87, 82);
+    text-align: center;
+    background-color: aqua;
+    font-weight: bold;
+}
+.bio {
+    color: blue;
+    text-align: left;
+}
+p {
+    font-size: 20px;
+    color: #555;}
