@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: rgb(168, 159, 159);
+    background-color: #706a6a;
 }
 
 h1 {
@@ -20,4 +20,10 @@ p {
     font-size: 16px;
     line-height: 1.3;
     text-align: justify;
+}
+
+.bio {
+    
+    color: blue;
+    text-align: left;
 }
