@@ -1,0 +1,7 @@
+.navbar{
+    display: block;
+    border: 5px solid rgb(89, 104, 104);
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+}
