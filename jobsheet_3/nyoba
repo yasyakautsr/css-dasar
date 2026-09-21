@@ -1,0 +1,93 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TokoKita - Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="page-title">Wireframe Halaman Landing "TokoKita"</h1>
+        
+        <!-- NAVBAR - Flexbox -->
+        <nav class="navbar">
+            <div class="logo">LOGO</div>
+            <div class="menu">
+                <div class="menu-item">Menu 1</div>
+                <div class="menu-item">Menu 2</div>
+                <div class="menu-item">Menu 3</div>
+            </div>
+        </nav>
+
+        <!-- HERO - Flexbox -->
+        <section class="hero">
+            <div class="hero-text">
+                <div class="placeholder-title">Judul Promosi</div>
+                <div class="placeholder-line"></div>
+                <div class="placeholder-line"></div>
+                <div class="placeholder-line short"></div>
+                <button class="cta">Belanja Sekarang</button>
+            </div>
+            <div class="hero-image">
+                <span>Gambar Hero</span>
+            </div>
+        </section>
+
+        <!-- GALERI PRODUK - CSS Grid -->
+        <section class="galeri">
+            <h2 class="section-title">Galeri Produk</h2>
+            <div class="produk-grid">
+                <!-- Produk 1 -->
+                <div class="card">
+                    <div class="card-img"></div>
+                    <div class="card-line"></div>
+                    <div class="card-line short"></div>
+                    <button class="cta small">Beli</button>
+                </div>
+                <!-- Produk 2 -->
+                <div class="card">
+                    <div class="card-img"></div>
+                    <div class="card-line"></div>
+                    <div class="card-line short"></div>
+                    <button class="cta small">Beli</button>
+                </div>
+                <!-- Produk 3 -->
+                <div class="card">
+                    <div class="card-img"></div>
+                    <div class="card-line"></div>
+                    <div class="card-line short"></div>
+                    <button class="cta small">Beli</button>
+                </div>
+                <!-- Produk 4 -->
+                <div class="card">
+                    <div class="card-img"></div>
+                    <div class="card-line"></div>
+                    <div class="card-line short"></div>
+                    <button class="cta small">Beli</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER - Flexbox -->
+        <footer class="footer">
+            <div class="copyright">© 2025 TokoKita</div>
+            <div class="sosmed">
+                <div class="icon">FB</div>
+                <div class="icon">IG</div>
+                <div class="icon">TT</div>
+            </div>
+        </footer>
+
+        <!-- Keterangan -->
+        <div class="keterangan">
+            <strong>Keterangan:</strong>
+            <div><span class="box flex"></span> Bagian yang disusun dengan Flexbox (navbar, hero, footer)</div>
+            <div><span class="box grid"></span> Bagian yang disusun dengan CSS Grid (galeri produk)</div>
+            <div><span class="box dashed"></span> Kotak putus-putus abu = area teks/gambar placeholder pada hero</div>
+            <div><span class="box cta-box"></span> Tombol aksi (CTA)</div>
+        </div>
+    </div>
+
+</body>
+</html>
